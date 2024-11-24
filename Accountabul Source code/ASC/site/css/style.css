@@ -1,0 +1,122 @@
+
+*,.btn
+{
+    /*font-family: "Roboto", Sans-serif;
+    font-weight: bold !important;*/
+}
+body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .content-wrapper, 
+body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-footer, 
+body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-header 
+{
+    margin-left: 0px !important;
+}
+
+.card-primary.card-outline 
+{
+    border-top: 3px solid var(--one) !important;
+}
+.jms-height
+{
+    min-height: 85vh !important;
+}
+.jms-text-color a
+{
+    color:var(--one)  !important;
+}
+.jms-login-form .input-group-append .input-group-text,
+.jms-registration-form .input-group-append .input-group-text,
+.jms-change-password-form .input-group-append .input-group-text,
+.jms-verify-password-form .input-group-append .input-group-text,
+.jms-change-pass-container .input-group-append .input-group-text
+{
+	width: 46px;
+	cursor: pointer;
+	border-left:none;
+	background-color: var(--white) !important;
+    display: flex;
+    justify-content: center;
+}
+.jms-login-form .input-group input,
+.jms-registration-form .input-group input,
+.jms-change-password-form .input-group input,
+.jms-change-pass-container .input-group input,
+
+{
+	border-right: none;
+}
+
+.jms-focus-input-pass
+{
+    color: #495057 !important;
+    border-color: #80bdff !important;
+    outline: 0 !important;
+    box-shadow: inset 0 0 0 transparent !important;
+}
+.jms-last-page a
+{
+    color: var(--two) !important;
+}
+a:hover 
+{
+    color: var(--black);
+}
+
+
+/*input*/
+
+/*input,select,textarea
+{
+    border: none !important;
+    border-bottom: 1px solid #cdcdcd !important;
+    border-radius: 0px !important;
+    padding: 0px 2px !important;
+}*/
+/*input:focus,select:focus,textarea:focus
+{
+   border-color: var(--one) !important; 
+}*/
+.input-group-text
+{
+/*    border: none !important;*/
+}
+/*input[type="file"]
+{
+    border: none !important;
+}*/
+
+.input-group-text
+{
+    border: none !important;
+}
+/*,.input-group-text:focus*/
+
+/*bottom footer*/
+
+.main-footer a,.jms-about-us ul li a
+{
+    color: var(--one) !important;
+}
+
+/*navbar top*/
+
+.jms-img-logo
+{
+    width: 70px;
+    height: 70px;
+}
+
+
+/*navbar menu active*/
+
+.jms-active-page
+{
+    color: #3c3b3b;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}

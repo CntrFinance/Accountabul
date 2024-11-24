@@ -1,0 +1,130 @@
+:root 
+{
+    --white:#ffffff; 
+    --black:black;
+    --blue:#051570;
+    --red:#ff0000;
+    --pink:#ff00ff;
+    --green:#00b050;
+    --yellow:#ffc000;
+}
+
+.btn-primary 
+{
+    background-color: var(--blue)  !important;
+    border-color: var(--blue)  !important;
+}
+.card-primary.card-outline 
+{
+    border-top: 3px solid var(--blue) !important;
+}
+.jms-height
+{
+    min-height: 90vh !important;
+}
+.jms-text-color a
+{
+    color:var(--blue)  !important;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, 
+.sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active 
+{
+    background-color:  var(--blue)  !important;
+}
+
+/*input*/
+
+input,select,textarea
+{
+    border: none !important;
+    border-bottom: 1px solid #cdcdcd !important;
+    border-radius: 0px !important;
+    padding: 0px 2px !important;
+}
+input:focus,select:focus,textarea:focus,.input-group-text:focus
+{
+   border-color: var(--blue) !important; 
+}
+.input-group-text
+{
+    border: none !important;
+}
+
+input[type="file"]
+{
+    border: none !important;
+}
+
+.jms-login-form .input-group-append .input-group-text,
+.jms-verify-password-form .input-group-append .input-group-text,
+.jms-change-password-form .input-group-append .input-group-text
+{
+    width: 46px;
+    cursor: pointer;
+    border-left:none;
+    background-color: var(--white) !important;
+}
+.jms-login-form .input-group input
+{
+    border-right: none;
+}
+
+a:hover 
+{
+    color: var(--black);
+}
+
+
+/*upload logo image */
+
+.custom-file-label
+{
+    border: none !important;
+    border-bottom: 1px solid #cdcdcd !important;
+    border-radius: 0px !important;
+}
+.custom-file-label::after
+{
+    height: auto !important;
+    background: var(--blue) !important;
+    color: var(--white) !important;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+/*.card-footer
+{
+    background-color: var(--white) !important;
+    padding: 0px !important;
+}*/
+.content-wrapper table tr td
+{
+    padding: 8px !important;
+}
+.page-item.active .page-link 
+{
+    background-color: var(--blue) !important;
+    border-color: var(--blue) !important;
+    color: var(--white) !important;
+}
+.page-link
+{
+    color: var(--blue) !important;
+}
+.page-link:focus 
+{
+    box-shadow: 0 0 0 0.2rem #05157024 !important;
+}
+
+.custom-file-input:lang(en)~.custom-file-label::after 
+{
+    content: "Hochladen";
+}
